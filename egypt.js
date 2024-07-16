@@ -8,3 +8,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+
+// Luxar Temple: Coordinates: 25° 41' 14.0748'' N 	32° 38' 22.6932'' E -> 25.687243, 32.639637
+
+L.cirle()[25.687243, 32.639637], {
+    fillcolor: 'teal',
+    color: #dedad9 ,
+    radius: 1000
+}).addTo(map);
