@@ -16,3 +16,11 @@ L.cirle()[25.687243, 32.639637], {
     color: #dedad9 ,
     radius: 1000
 }).addTo(map);
+
+
+var circle = L.circle([51.508, -0.11], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
