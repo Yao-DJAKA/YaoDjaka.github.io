@@ -13,9 +13,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let marker = L.marker([35.2176665, -80.831473],  {
     title: "CPCC Central Campus"
-  }).bindPopup(`<h2>Hello from CPCC!</h2><hr><iframe width="560" height="315" src="https://www.youtube.com/embed/wCyHWiYPiXU?si=Xm44NlBXJW4G399z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+  }).bindPopup(`<iframe width="560" height="315" src="https://www.youtube.com/embed/wCyHWiYPiXU?si=Xm44NlBXJW4G399z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
   .addTo(map);
 
 L.marker([35.2176665, -80.831473], {
     title: "Hello from CPCC!"
-}).addTo(map);
+}).bindPopup("Hello from CPCC!")
+  .addTo(map);
