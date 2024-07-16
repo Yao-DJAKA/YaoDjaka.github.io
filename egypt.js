@@ -13,14 +13,15 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.cirle()[25.687243, 32.639637], {
     fillcolor: 'teal',
-    color: #dedad9 ,
+    color: 'black' ,
     radius: 1000
-}).addTo(map);
+}).bindpopup(`<iframe width="280" height="120" src="https://www.youtube.com/embed/EDjJLd0TApo?si=dLU5KvQjvJFzpzWW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+  .addTo(map);
 
 
-var circle = L.circle([51.508, -0.11], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 500
-}).addTo(map);
+//var circle = L.circle([51.508, -0.11], {
+  //  color: 'red',
+ //   fillColor: '#f03',
+   // fillOpacity: 0.5,
+   // radius: 500
+//}).addTo(map);
