@@ -25,6 +25,9 @@ L.marker([35.2176665, -80.831473], {
 <hr>
 <a href="https:www.cpcc.edu">Click here to go to CPCC's webpage</a><br>
 <iframe width="260" height="160" src="https://www.youtube.com/embed/SIOicrto1yw?si=IiQG4kfL91Q1yZC6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<hr>
+<p>[https://www.youtube.com/watch?v=SIOicrto1yw]</p>
 </center>
 `)
   .addTo(map);
