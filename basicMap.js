@@ -12,11 +12,19 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let marker = L.marker([35.2176665, -80.831473],  {
-    title: "CPCC Central Campus"
-  }).bindPopup(`<iframe width="560" height="315" src="https://www.youtube.com/embed/wCyHWiYPiXU?si=Xm44NlBXJW4G399z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
-  .addTo(map);
+title: "CPCC Central Campus"
+}).bindPopup(`<iframe width="560" height="315" src="https://www.youtube.com/embed/wCyHWiYPiXU?si=Xm44NlBXJW4G399z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+ .addTo(map);
 
 L.marker([35.2176665, -80.831473], {
     title: "Hello from CPCC!"
-}).bindPopup("Hello from CPCC!")
+}).bindPopup(`
+<center>
+
+<h2>Hello from CPCC</h2>
+<hr>
+<a href="https:www.cpcc.edu">Click here to go to CPCC's webpage</a><br>
+<iframe width="260" height="160" src="https://www.youtube.com/embed/SIOicrto1yw?si=IiQG4kfL91Q1yZC6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+`)
   .addTo(map);
